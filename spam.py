@@ -1,5 +1,5 @@
 import pyautogui
-mesaj=pyautogui.prompt(text="Text",title="DIORspammer")
+message=pyautogui.prompt(text="Text",title="DIORspammer")
 while True:
-    pyautogui.typewrite(mesaj)
+    pyautogui.typewrite(message)
     pyautogui.press('enter')
